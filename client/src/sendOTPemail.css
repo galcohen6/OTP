@@ -1,0 +1,165 @@
+.containerForm {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: rgb(19, 15, 46);
+  box-sizing: border-box;
+}
+
+.form-section {
+  width: 500px; 
+  background-color: #ffffff;
+}
+
+.registerForm {
+  height: 89%;
+  background-color: rgb(19, 15, 46);
+  padding: 40px;
+  align-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formTitle {
+  letter-spacing: 1px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #8788a9;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.formTitle {
+  font-size: 1.8rem; 
+  text-align: center; 
+  letter-spacing: 1px; 
+  color: #ffffff; 
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4), 
+               0 0 10px rgba(0, 0, 0, 0.8); 
+  transition: transform 0.3s ease, text-shadow 0.3s ease; 
+}
+
+.formTitle:hover {
+  transform: scale(1.1); 
+  text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.6), 
+               0 0 1px rgba(255, 255, 255, 1); 
+}
+
+.react-datepicker__input-container input {
+  width: 100%; 
+  height: 50px; 
+  border-radius: 25px; 
+  font-size: 1rem; 
+  padding: 10px; 
+  box-sizing: border-box; 
+  margin: 10px 0;
+
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.formInput {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.formInput:focus {
+  border-color: #8788a9;
+  outline: none;
+    border: 2px solid #ccc;
+
+}
+
+.formButton {
+  width: 500px;
+  padding: 12px;
+  background-color: #8788a9;
+  color: rgb(33, 35, 54);
+  border: none;
+  font-weight: bold;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formButton:hover {
+  background-color: #8788a9;
+}
+
+.formButton:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.divider {
+  width: 1px; 
+  background-color: rgb(22, 25, 49); 
+  box-shadow: 
+    0 0 10px rgb(250, 250, 250), 
+    0 0 15px rgba(0, 1, 5, 0.2); 
+}
+
+
+.containerForm img {
+  object-fit: cover;
+  flex-grow: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 768px) {
+  .containerForm {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+.formInput,
+.formButton {
+  width: 100%; 
+  padding: 12px; 
+  margin: 10px 0; 
+  box-sizing: border-box; 
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.formInput:hover,
+.formInput:focus {
+  box-shadow: 0 0 8px rgba(253, 253, 253, 0.8);
+}
+
+.formButton:hover {
+  background-color: #8788a9;
+  box-shadow: 0 0 8px rgba(253, 253, 253, 0.8);
+  border: 2px solid #8788a9;
+}
+
+.message,
+p {
+  font-size: 14.5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+p {
+  text-align: center;
+}
+
+p a:hover {
+  text-decoration: underline rgb(255, 255, 255);
+}
+
+p a {
+  color: #ffffff;
+}
+
+
