@@ -29,5 +29,5 @@ React.js for creating a dynamic user interface.
 React Router for navigation between registration and OTP verification pages.
 
 
-
+Click to view:
 https://www.loom.com/share/b52b42873a5142eb8c7d5c41ecd1af02?sid=12449ed7-dffd-4522-892f-f1a34fb10b0c
